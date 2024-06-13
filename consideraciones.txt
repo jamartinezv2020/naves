@@ -1,0 +1,19 @@
+Hola compañeros les escribo esto para que tengan una pequeña referencia de como programar en el codigo
+
+
+Pongan su parte del algoritmo a partir del comentario que dice #Programar aqui...
+
+La funcion play_event ejecuta el codigo que programaron segun la ruta que lleve la nave,
+recibe el parametro "spaceship" que es un objeto con toda la informacion de la nave
+(Los tripulantes, y la ruta principalmente). Lo mas importante de la clase spaceship es
+la propiedad rooms (que pueden acceder mediante spaceship.rooms[i][j][k])
+
+rooms es una matriz de 5x5, cada celda representa una "habitacion", que no es mas que una lista, o sea,
+en cada celda de la matriz se guarda una lista con los miembros de esa habitacion
+
+
+
+def play_event(self, spaceship):
+    if self.triggers():
+        print(Colors.WARNING + "There is an air poisonous scape!" + Colors.ENDC)
+        # Programar aqui...
